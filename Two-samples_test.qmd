@@ -1,0 +1,21 @@
+---
+title: "Two-samples Test"
+author: "Dr. Kam Tin Seong"
+---
+
+```{r}
+#| echo: false
+pacman::p_load(tidyverse, ggstatsplot)
+```
+
+```{r}
+#| echo: false
+exam_data <- read_csv("data/Exam_data.csv")
+```
+
+```{r}
+#| echo: false
+ggbetweenstats(data = exam_data,
+               x = GENDER,
+               y = ENGLISH)
+```

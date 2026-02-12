@@ -4,6 +4,11 @@ project:
 website:
   title: "Rweb"
   navbar:
+    left: 
+      - text: "Visual Statistics"
+        menu: 
+          - text: "Two-samples Test"
+            href: Two-samples_test.html
     right:
       - href: index.qmd
         text: Home
