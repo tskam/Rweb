@@ -17,7 +17,7 @@ website:
 format:
   html:
     theme:
-      - cosmo
+      - united
       - brand
     css: styles.css
     toc: true
