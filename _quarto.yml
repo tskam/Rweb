@@ -4,7 +4,7 @@ project:
 website:
   title: "Rweb"
   navbar:
-    left:
+    right:
       - href: index.qmd
         text: Home
       - about.qmd
